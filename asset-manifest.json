@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-Lavish/static/css/main.da6321ef.css",
-    "main.js": "/React-Lavish/static/js/main.2c2f9b88.js",
-    "index.html": "/React-Lavish/index.html",
-    "main.da6321ef.css.map": "/React-Lavish/static/css/main.da6321ef.css.map",
-    "main.2c2f9b88.js.map": "/React-Lavish/static/js/main.2c2f9b88.js.map"
+    "main.css": "/static/css/main.da6321ef.css",
+    "main.js": "/static/js/main.6c9496ce.js",
+    "index.html": "/index.html",
+    "main.da6321ef.css.map": "/static/css/main.da6321ef.css.map",
+    "main.6c9496ce.js.map": "/static/js/main.6c9496ce.js.map"
   },
   "entrypoints": [
     "static/css/main.da6321ef.css",
-    "static/js/main.2c2f9b88.js"
+    "static/js/main.6c9496ce.js"
   ]
 }
