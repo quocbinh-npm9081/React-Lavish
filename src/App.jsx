@@ -8,8 +8,9 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-      <Route path="/React-Lavish" element={<Home/>} />
-      <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/React-Lavish" element={<Home/>} />
+
       </Routes>
     </BrowserRouter>
 
