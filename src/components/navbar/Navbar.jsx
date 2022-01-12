@@ -15,7 +15,7 @@ function Navbar() {
     const navBarListItem = [
         {
             display: 'Home',
-            path: '/'
+            path: '/React-Lavish'
         },
         {
             display: 'Services',
@@ -55,7 +55,7 @@ function Navbar() {
          <>
             <div className="navbar">
                 <div className="navbar__container container">
-                    <Link to='/' className="navbar__logo">
+                    <Link to='/React-Lavish' className="navbar__logo">
                     <i className='bx bxs-analyse'></i>
                         <h1>LAVISH</h1>
                     </Link>
