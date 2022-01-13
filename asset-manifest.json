@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Lavish/static/css/main.da6321ef.css",
-    "main.js": "/React-Lavish/static/js/main.21498d21.js",
+    "main.css": "/React-Lavish/static/css/main.8d00a502.css",
+    "main.js": "/React-Lavish/static/js/main.5a3bbf14.js",
+    "static/media/svg-4.svg": "/React-Lavish/static/media/svg-4.a69bc25d119ba864a42de73f2f5fa734.svg",
     "static/media/svg-5.svg": "/React-Lavish/static/media/svg-5.c614f92c4a3334012acc67f1590bf7be.svg",
     "static/media/svg-7.svg": "/React-Lavish/static/media/svg-7.f9856b25c308a044e3910ad8c0727c25.svg",
+    "static/media/svg-6.svg": "/React-Lavish/static/media/svg-6.6335a14a3c15601397b0064ef1ee7a05.svg",
     "static/media/svg-8.svg": "/React-Lavish/static/media/svg-8.a5a044be54d8d1dae71fae2f72bafcdf.svg",
     "static/media/svg-1.svg": "/React-Lavish/static/media/svg-1.48d08d0e397e8cbf9eb00acddd8e49e3.svg",
     "index.html": "/React-Lavish/index.html",
-    "main.da6321ef.css.map": "/React-Lavish/static/css/main.da6321ef.css.map",
-    "main.21498d21.js.map": "/React-Lavish/static/js/main.21498d21.js.map"
+    "main.8d00a502.css.map": "/React-Lavish/static/css/main.8d00a502.css.map",
+    "main.5a3bbf14.js.map": "/React-Lavish/static/js/main.5a3bbf14.js.map"
   },
   "entrypoints": [
-    "static/css/main.da6321ef.css",
-    "static/js/main.21498d21.js"
+    "static/css/main.8d00a502.css",
+    "static/js/main.5a3bbf14.js"
   ]
 }
