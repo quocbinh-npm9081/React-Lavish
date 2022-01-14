@@ -81,6 +81,12 @@
     left: 0;
 }
 
+.nav-links.active::before {
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
 @media screen and (max-width: 960px) {
     .NavbarItems {
         position: relative;

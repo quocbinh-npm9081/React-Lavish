@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from 'react';
-import { Link} from 'react-router-dom';
+import { Link , useLocation} from 'react-router-dom';
 
 import './navbar.css';
 
@@ -11,7 +11,7 @@ function Navbar() {
 
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
-
+    const {pathname} = useLocation();
     const navBarListItem = [
         {
             display: 'Home',
@@ -26,6 +26,8 @@ function Navbar() {
             path: '/products'
         },
     ]
+
+    const activeMenuItem = navBarListItem.findIndex(e => e.path === pathname);
     const handleCLick = ()=>setClick(!click)
 
     // const CloseMenuMoblie = ()=>setClick(false);
@@ -67,7 +69,7 @@ function Navbar() {
                             {
                                 navBarListItem.map((li, index)=>(
                                     <li className="nav-item" key={index}>
-                                        <Link to={li.path} className="nav-links">
+                                        <Link to={li.path} className={ index === activeMenuItem ? 'nav-links active' : 'nav-links' }>
                                             {li.display}
                                         </Link>
                                     </li>
